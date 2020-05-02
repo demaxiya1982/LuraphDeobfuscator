@@ -6,6 +6,13 @@ Requires Java 8 to run.
 # Binary Release (Version 1.0.0)
 https://github.com/TheGreatSageEqualToHeaven/LuraphDeobfuscator/releases/download/v1.0.0/LuraphDeobfuscator.jar
 
+# Donations
+
+If you enjoy my work, send me some donations! Developer work is really time consuming
+
+BTC: ```1EaBRLwhgMFymD7eCjmGJqwfYnscbMDseW```
+ETH: ```0x4Bc0F3c9dBdD3D54FE93034D0F2e934d7f6FB441```
+
 # Discord Group
 Come discuss this project in my Lua discord 
 
