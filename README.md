@@ -36,6 +36,15 @@ Luraph scripts are extremely complicated to tackle, especially in an automated m
 
 LuraphDeobfuscator provides a Lua deobfuscation engine which can be ported to other Lua obfuscators trivially. This source code can be used, with minor modifications, for a vast array of things related to Lua. I emplore the community to reuse my code and engine to create other Lua deobfuscators, as long as they state they are using my code and provide a link back to this project.
 
+# Video Tutorials
+```By Itzz Me Nick#8776```
+
+https://youtu.be/j_XpBN0WdHE
+
+```By Kin(Anti Weebism Will Rise)#8270```
+
+https://streamable.com/lkq6yl
+
 # Simple usage
 Generate a .luac file from an obfuscated Luraph VM script
 
@@ -238,3 +247,10 @@ Constant 6 =
 
 END CHUNK
 ```
+
+# Advanced Use: Handling Compressed VM's
+
+How do you know what a compressed VM is? It looks like this: https://pastebin.com/raw/CD7XYkxG eg it has a function call to  ```loadstring``` in it's source code. (CTRL+F loadstring, if you find it, it's a compressed VM).
+
+At the beginning of the script put ```loadstring=print``` and run the script. Then copy the output, save the file and decompile it. Thanks to ```aris#1096``` for posting these instructions on the discord.
+
