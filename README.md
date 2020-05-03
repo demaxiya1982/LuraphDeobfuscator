@@ -26,10 +26,10 @@ Add me on discord
 # Motivation
 This project was created for intellectual purposes as a way to explore code deobfuscation techniques on Lua scripts obfuscated by Luraph, which is a tool used to obfuscate Lua scripts. This Lua obfuscator has been used by cybercriminals as a way of protecting malicious exploits they sell for Robolox or bots for World of Warcraft. This project may be of interest to game security developers to prevent cheating in their games by discovering how hackers are breaking their code.
 
-Luraph scripts are extremely complicated to tackle, especially in an automated matter. The process is essentially.
+Luraph scripts are extremely complicated to tackle, especially in an automated matter. The process is essentially as follows:
 
 - Lex and parse input Lua file to generate parse tree
-- Convert parse tree into abstract syntax treee
+- Convert parse tree into abstract syntax tree
 - Optimize the abstract syntax tree
 - Rename variables, populate symbol table.
 - Detect and rename variables and function names into names such as ```get_float64```, etc
