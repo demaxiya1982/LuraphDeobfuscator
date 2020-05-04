@@ -178,11 +178,11 @@ If we are curious about manually inspecting the VM ourselves, we can use LuraphD
 
 To save the VM to a file
 
-```java -jar LuraphDeobfuscator -i file.lua -s > file.vm.lua```
+```java -jar LuraphDeobfuscator.jar -i file.lua -s > file.vm.lua```
 
 To copy the VM to your clipboard (CTRL+C/CTRL+P)
 
-```java -jar LuraphDeobfuscator -i file.lua -c```
+```java -jar LuraphDeobfuscator.jar -i file.lua -c```
 
 The contents of running that command on the script we are interested can be found here:
 
@@ -198,7 +198,7 @@ We can see it even assigns names to functions and variables. Pretty neat!
 
 We can also view the optimized VM graphically:
 
-```java -jar LuraphDeobfuscator -i file.lua -s```
+```java -jar LuraphDeobfuscator.jar -i file.lua -s```
 
 The following window will be displayed:
 
